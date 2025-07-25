@@ -30,11 +30,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <StickyBanner className="bg-gradient-to-b from-blue-500 to-blue-600">
+        <StickyBanner className="bg-gradient-to-b from-orange-500 to-orange-600">
           <p className="mx-0 max-w-[90%] text-white drop-shadow-md">
-            I'm just open for part time work! Plss contact me on my{' '}
-            <a href="#" className="transition duration-200 hover:underline">
+            THIS SITE IS STILL UNDER DEVELOPMENT BUT YOU CAN FOLLOW MY IG ANW{' '}
+            {/* I'm just open for part time work! Plss contact me on my{' '} */}
+            {/* <a href="#" className="transition duration-200 hover:underline">
               LinkedIn
+            </a> */}
+            <a
+              target="_blank"
+              href="https://instagram.com/iimannr_"
+              className="transition duration-200 hover:underline"
+            >
+              @iimannr_
             </a>
           </p>
         </StickyBanner>
