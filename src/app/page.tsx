@@ -56,9 +56,8 @@ export default function Home() {
       <section id="about" className="flex-col mt-10">
         <h2 className="text-xl font-bold">Talk about me</h2>
         <div className="text-slate-600 text-sm">
-          An information system student on a quest to find himself through the
-          lines of code he writes. Active in campus organizations. Famously
-          known as a{' '}
+          A second year student on a quest to find himself through the lines of
+          code he writes. Active in campus organizations. Famously known as a{' '}
           <PointerHighlight
             rectangleClassName="bg-blue-100 border-blue-300 leading-loose"
             // rectangleClassName="bg-neutral-200 dark:bg-neutral-700 border-neutral-300 dark:border-neutral-600 leading-loose"
