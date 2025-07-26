@@ -1,23 +1,35 @@
-import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
-import './globals.css';
-import { FloatingDock } from '@/components/ui/floating-dock';
-import { portfolioLinks } from '@/lib/dock-links';
-import { StickyBanner } from '@/components/ui/sticky-banner';
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import { FloatingDock } from "@/components/ui/floating-dock";
+import { portfolioLinks } from "@/lib/dock-links";
+import { StickyBanner } from "@/components/ui/sticky-banner";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: 'Nuriman',
-  description: 'Your friendly neighborhood programmer',
+  title: "Nuriman",
+  description: "Your friendly neighborhood programmer",
+  keywords: [
+    "Muhamad Nur Iman",
+    "Nur Iman",
+    "Iman",
+    "UNNES",
+    "web developer",
+    "portfolio",
+    "Next.js",
+    "React",
+    "Semarang",
+  ],
 };
 
 export default function RootLayout({
@@ -27,12 +39,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="qzUqhQ2v_GJGM3IRjLnhjJjeMMUcvnwKWQIay4c-cO4"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <StickyBanner className="bg-gradient-to-b from-orange-500 to-orange-600">
           <p className="mx-0 max-w-[90%] text-white drop-shadow-md">
-            THIS SITE IS STILL UNDER DEVELOPMENT BUT YOU CAN FOLLOW MY IG ANW{' '}
+            THIS SITE IS STILL UNDER DEVELOPMENT BUT YOU CAN FOLLOW MY IG ANW{" "}
             {/* I'm just open for part time work! Plss contact me on my{' '} */}
             {/* <a href="#" className="transition duration-200 hover:underline">
               LinkedIn
@@ -56,6 +72,7 @@ export default function RootLayout({
             items={portfolioLinks}
           />
         </div>
+        <Analytics />
       </body>
     </html>
   );

@@ -29,11 +29,14 @@ import {
   IconBrandInertia,
   IconDeviceGamepad,
   IconBrandInstagram,
-} from '@tabler/icons-react';
+  IconMusicBolt,
+  IconMusic,
+  IconMusicStar,
+} from "@tabler/icons-react";
 
 export const skills = [
   {
-    name: 'Teaching',
+    name: "Teaching",
     icon: (
       <IconChalkboardTeacher
         className="text-sky-500 size-20 scale-150 origin-left mr-1"
@@ -43,7 +46,7 @@ export const skills = [
     ),
   },
   {
-    name: 'WordPress',
+    name: "WordPress",
     icon: (
       <IconBrandWordpress
         className="text-black size-20 scale-150 origin-left mr-1"
@@ -53,7 +56,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Figma',
+    name: "Figma",
     icon: (
       <IconBrandFigma
         className="text-pink-500 size-20 scale-150 origin-left mr-1"
@@ -63,7 +66,7 @@ export const skills = [
     ),
   },
   {
-    name: 'GDevelop',
+    name: "GDevelop",
     icon: (
       <IconDeviceGamepad
         className="text-black size-20 scale-150 origin-left mr-1"
@@ -73,7 +76,7 @@ export const skills = [
     ),
   },
   {
-    name: 'HTML',
+    name: "HTML",
     icon: (
       <IconFileTypeHtml
         className="text-orange-600 size-20 scale-150 origin-left mr-1"
@@ -83,7 +86,7 @@ export const skills = [
     ),
   },
   {
-    name: 'CSS',
+    name: "CSS",
     icon: (
       <IconFileTypeCss
         className="text-blue-600 size-20 scale-150 origin-left mr-1"
@@ -93,7 +96,7 @@ export const skills = [
     ),
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: (
       <IconFileTypeJs
         className="text-yellow-400 size-20 scale-150 origin-left mr-1"
@@ -103,7 +106,7 @@ export const skills = [
     ),
   },
   {
-    name: 'PHP',
+    name: "PHP",
     icon: (
       <IconFileTypePhp
         className="text-indigo-700 size-20 scale-150 origin-left mr-1"
@@ -113,7 +116,7 @@ export const skills = [
     ),
   },
   {
-    name: 'SCSS',
+    name: "SCSS",
     icon: (
       <IconBrandSass
         className="text-indigo-700 size-20 scale-150 origin-left mr-1"
@@ -123,7 +126,7 @@ export const skills = [
     ),
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: (
       <IconBrandTypescript
         className="text-blue-500 size-20 scale-150 origin-left mr-1"
@@ -133,7 +136,7 @@ export const skills = [
     ),
   },
   {
-    name: 'React',
+    name: "React",
     icon: (
       <IconBrandReact
         className="text-blue-500 size-20 scale-150 origin-left mr-1"
@@ -143,7 +146,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Next.js',
+    name: "Next.js",
     icon: (
       <IconBrandNextjs
         className="text-black dark:text-white size-20 scale-150 origin-left mr-1"
@@ -153,7 +156,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Laravel',
+    name: "Laravel",
     icon: (
       <IconBrandLaravel
         className="text-red-600 size-20 scale-150 origin-left mr-1"
@@ -163,7 +166,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Livewire',
+    name: "Livewire",
     icon: (
       <IconBrandLivewire
         className="text-pink-500 size-20 scale-150 origin-left mr-1"
@@ -173,7 +176,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Inertia.js',
+    name: "Inertia.js",
     icon: (
       <IconBrandInertia
         className="text-fuchsia-500 size-20 scale-150 origin-left mr-1"
@@ -183,7 +186,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Alpine.js',
+    name: "Alpine.js",
     icon: (
       <IconBrandAlpineJs
         className="text-blue-400 size-20 scale-150 origin-left mr-1"
@@ -193,7 +196,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Motion',
+    name: "Motion",
     icon: (
       <IconBrandFramerMotion
         className="text-fuchsia-500 size-20 scale-150 origin-left mr-1"
@@ -203,7 +206,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: (
       <IconBrandTailwind
         className="text-sky-400 size-20 scale-150 origin-left mr-1"
@@ -213,7 +216,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Bootstrap',
+    name: "Bootstrap",
     icon: (
       <IconBrandBootstrap
         className="text-purple-500 size-20 scale-150 origin-left mr-1"
@@ -223,7 +226,7 @@ export const skills = [
     ),
   },
   {
-    name: 'C++',
+    name: "C++",
     icon: (
       <IconBrandCpp
         className="text-blue-800 size-20 scale-150 origin-left mr-1"
@@ -233,7 +236,7 @@ export const skills = [
     ),
   },
   {
-    name: 'MySQL',
+    name: "MySQL",
     icon: (
       <IconBrandMysql
         className="text-orange-400 size-20 scale-150 origin-left mr-1"
@@ -243,7 +246,7 @@ export const skills = [
     ),
   },
   {
-    name: 'PostgreSQL',
+    name: "PostgreSQL",
     icon: (
       <IconDatabase
         className="text-blue-900 size-20 scale-150 origin-left mr-1"
@@ -253,7 +256,7 @@ export const skills = [
     ),
   },
   {
-    name: 'MongoDB',
+    name: "MongoDB",
     icon: (
       <IconBrandMongodb
         className="text-green-500 size-20 scale-150 origin-left mr-1"
@@ -263,7 +266,7 @@ export const skills = [
     ),
   },
   {
-    name: 'Supabase',
+    name: "Supabase",
     icon: (
       <IconBrandSupabase
         className="text-green-500 size-20 scale-150 origin-left mr-1"
@@ -273,9 +276,19 @@ export const skills = [
     ),
   },
   {
-    name: 'Doom Scrolling',
+    name: "Doom Scrolling",
     icon: (
       <IconBrandInstagram
+        className="text-pink-500 size-20 scale-150 origin-left mr-1"
+        size={40}
+        stroke={1.25}
+      />
+    ),
+  },
+  {
+    name: "Music",
+    icon: (
+      <IconMusicStar
         className="text-pink-500 size-20 scale-150 origin-left mr-1"
         size={40}
         stroke={1.25}
